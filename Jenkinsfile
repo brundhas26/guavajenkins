@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/Hemavathipcse/MyMavenJenkinsPipeline.git'
+                git branch: 'main', url: 'https://github.com/Hemavathipcse/MyMavenJenkinsPipeline.git'
             }
         }
 
