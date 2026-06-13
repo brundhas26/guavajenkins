@@ -9,8 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Hemavathipcse/MyMavenJenkinsPipeline.git'
-            }
+                git branch: 'main', url: 'https://github.com/brundhas26/guavajenkins.git'
         }
 
         stage('Build') {
